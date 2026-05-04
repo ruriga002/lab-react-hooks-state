@@ -5,7 +5,7 @@ function Cart({ cart }) {
 
       {cart.map((item, index) => (
         <p key={index}>
-          {item.name} is in your cart.
+          {item.name} is in your cart
         </p>
       ))}
     </div>
